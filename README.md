@@ -5,6 +5,8 @@ For Asp.NEt Security
 * [Custom Error Page](#Custom-Error)
 * [Disabling TRACE,OPTIONS Method](#Disable-Methods)
 * [ADD Custom Headers](#Custom-Headers)
+* [Encrypt Viewstate](#Encrpt-Viewstate)
+
 
 
 
@@ -84,5 +86,11 @@ Below are some Custom Error page settings for different error codes
 </configuration>
 ```
 
+## Encrpt-Viewstate
 
-
+this is simple way, THeres many encryption techniques
+```config
+<system.web> 
+	<pages viewStateEncryptionMode="Always" /> 
+</system.web>
+```
