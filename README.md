@@ -8,7 +8,7 @@ For Asp.NEt Security
 
 
 
-# Custom-Error
+## Custom-Error
 Below are some Custom Error page settings for different error codes
 
 ```config
@@ -50,7 +50,7 @@ Below are some Custom Error page settings for different error codes
 
 ```
   
- # Disable-Methods
+ ## Disable-Methods
 
 ```config
 <system.webServer>
@@ -66,8 +66,9 @@ Below are some Custom Error page settings for different error codes
 </system.webServer>
 ```
 
-# Custom-Headers
+## Custom-Headers
 
+```config
 <configuration>
    <system.webServer>
       <httpProtocol>
@@ -81,7 +82,7 @@ Below are some Custom Error page settings for different error codes
       </httpProtocol>
    </system.webServer>
 </configuration>
-
+```
 
 
 
