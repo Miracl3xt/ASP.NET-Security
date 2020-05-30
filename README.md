@@ -11,7 +11,7 @@ For Asp.NEt Security
 
 
 ## Custom-Error
-Below are some Custom Error page settings for different error codes
+How to implement custom error page in asp.net website?
 
 ```config
 <system.web>
@@ -53,6 +53,7 @@ Below are some Custom Error page settings for different error codes
 ```
   
  ## Disable-Methods
+How to disable dangerous HTTP Methods in ASP? 
 
 ```config
 <system.webServer>
@@ -62,6 +63,7 @@ Below are some Custom Error page settings for different error codes
           <add verb="OPTIONS" allowed="false" />
           <add verb="TRACE" allowed="false" />
            <add verb="PUT" allowed="false" />
+	   <add verb="DELETE" allowed="false" />
         </verbs>
       </requestFiltering>
     </security>
@@ -70,6 +72,7 @@ Below are some Custom Error page settings for different error codes
 
 ## Custom-Headers
 
+How to Implement Security Headers in asp?
 ```config
 <configuration>
    <system.webServer>
@@ -85,6 +88,8 @@ Below are some Custom Error page settings for different error codes
    </system.webServer>
 </configuration>
 ```
+
+How to Encrypt Viewstate in Asp?
 
 ## Encrpt-Viewstate
 
