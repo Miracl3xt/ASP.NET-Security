@@ -89,11 +89,10 @@ How to Implement Security Headers in asp?
 </configuration>
 ```
 
-How to Encrypt Viewstate in Asp?
-
 ## Encrpt-Viewstate
 
-this is simple way, THeres many encryption techniques
+How to Encrypt Viewstate in Asp?
+
 ```config
 <system.web> 
 	<pages viewStateEncryptionMode="Always" /> 
